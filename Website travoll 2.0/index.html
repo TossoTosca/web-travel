@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>My Travel Guide</title>
+</head>
+
+<body id="main">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+        <div class="container" id="main2">
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navcol" aria-controls="navcol" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navcol">
+                <ul class="navbar-nav mr-auto">
+                    <li class="navbar-item">
+                        <a class="nav-link" href="index.html"><b>Home</b></a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="for-about.html"><b>About</b></a>
+                    </li>
+                    
+                </ul>
+                <form class="form-inline my-2 my-lg-0" name="formControl">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                    <input  class="form-control mr-sm-2" type="text" placeholder="Total Price"  readonly id="total">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--navbar-->
+    
+    <!--content-->
+    <div class="jumbotron jumbotron-fluid">
+        <h1>Its Travollooca!</h1>
+        <p class="lead info">Hooliday? Travollooca First!</p>
+    </div>
+    <div class="container-sm rounded" id="main3">
+
+        <br>
+
+        <h5 id="ats"><b>All Places</b></h5>
+        
+        <div class="btn-group dropleft rounded" id="dd">
+            <button type="button" class="btn btn-secondary rounded dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Where to go?
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="bandung.html">Bandung</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="jawa.html">Jawa</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="bali.html">Bali</a>
+            </div>
+          </div>
+        <br><br>
+
+      <section class="card-deck" id="destinasi1">
+            <!--ciater-->
+            <div class="card row col-lg-8-md-8-sm-10-xs-10 shadow-lg p-0 bg-white rounded" id="card-1">
+                <img class="card-img-top" src="gambar/background-ciater.jpg" alt="Responsive Image" id="imgcard1">
+                <div class="card-body">
+                    <h3 class="card-title"><b>Ciater</b></h3>
+                    <h5 class="card-tittle"><b>Subang, Bandung</b></h5>
+                    <br>
+                    <p class="text-break">
+                      The cool highlands of Subang in West Java provide an idyllic setting for an unforgettable personal experience where the crisp mountain air and the refreshing sounds of bubbling mountain streams soothe the soul. The town of Ciater is known for its natural hot springs with their healing qualities which promote physical well being. Here the Ciater Hot-Springs Spa makes the most of nature's rich rehabilitative resources, by pampering its guests in tranquil surroundings, delivering professional care through therapies and treatments that revitalize both the body and mind.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <h4><b>IDR 45.000</b></h4>
+                    <br>
+                    <button type="button" class="btn btn-info btn-md active" data-toggle="modal" data-target="#ciater">
+                        See More
+                      </button>
+                    <button class="btn btn-primary btn-md active" type="submit" value="45000" id="hargaA">Add To Wishlist</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="ciater" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn btn-secondary" value="45000" id="hargaA">Add To Whislist</button>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                        </div>
+                        <div id="carouselciater" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselciater" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselciater" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="gambar/ciater-2.png" class="d-block w-100" alt="Responsive Image" id="crs1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="gambar/ciater-3.jpg" class="d-block w-100" alt="Responsive Image" id="crs2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="gambar/ciater-4.jpg" class="d-block w-100" alt="Responsive Image" id="crs3">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselciater" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselciater" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="modal-body">
+                            <h2 class="modal-title"><b>Ciater</b></h2>
+                            <br>
+                            <h5 class="modal-tittle"><b>Ciater, The Revitalizing Hot Springs</b></h5>
+                            <br>
+                            <p class="modal-text">
+                              The cool highlands of Subang in West Java provide an idyllic setting for an unforgettable personal experience where the crisp mountain air and the refreshing sounds of bubbling mountain streams soothe the soul. The town of Ciater is known for its natural hot springs with their healing qualities which promote physical well being. Here the Ciater Hot-Springs Spa makes the most of nature's rich rehabilitative resources, by pampering its guests in tranquil surroundings, delivering professional care through therapies and treatments that revitalize both the body and mind.
+                            </p>
+                            <p class="modal-text">
+                              Ciater Hot Spring is a nice park with small pools in which we can sit or swim. The streams and pools are fed by warm mineral springs, which are created by the heat from nearby volcanoes. About 30 minutes from Tangkuban Perahu crater. Ciater is pretty little place in the middle of huge tea estate. Its main attraction is the Sari Ater Hot Spring Resort; the pools are probably the best of all the hot springs around Bandung. 
+                            </p>
+                            <p class="modal-text">
+                              We can enjoy swimming in warm sulfurous water pools that can heal rheumatism and skin problems. Here we can swim in warm mineral water pools, good for healing skin problems. Ciater hot spring is one stop place for entertainment and relaxation. Ciater is located in Lembang, a green, lush place. The water contains iodium and sulfur, well for curing skin ailments and rheumatism. Equipped with tennis courts, restaurants, and camping area, Ciater is a good way to retreat from every day's life.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <h4 id="hrg"><b>IDR 45000</b></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--ciater-->
+
+            <!--lembang-->
+            <div class="card row col-lg-8-md-8-sm-10-xs-10 p-0 shadow-lg bg-white rounded" id="card-2">
+                <img class="card-img-top" src="gambar/lembang-1.jpg" alt="Responsive Image">
+                <div class="card-body">
+                    <h3 class="card-title"><b>Lembang</b></h3>
+                    <h5 class="card-tittle"><b>Lembang, Bandung, Indonesia</b></h5>
+                    <br>
+                    <p class="text-break">
+                      Lembang is also a great site to enjoy your family holiday. Visiting Farmhouse Lembang or De'Ranch is a must if you're with children. Visit the Hobbit house in Farmhouse or go horseback riding in De'Ranch, both are wonderful family-friendly attractions. You want something different? Stargazing at Bosscha Observatory offers a more educational type of vacation.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <h4><b>IDR 50.000 / destination</b></h4>
+                    <br>
+                    <button type="button" class="btn btn-info btn-md active" data-toggle="modal" data-target="#Lembang">
+                        See More
+                      </button>
+                    <button class="btn btn-primary btn-md active" type="button" value="50000" id="hargaB">Add To Wishlist</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Lembang" tabindex="-1" role="dialog" aria-labelledby="ModalLabel2" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="btn btn-secondary btn-md active" type="button" value="50000" id="hargaB">Add To Wishlist</button>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                        </div>
+                        <div id="carouselLembang" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselLembang" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselLembang" data-slide-to="1"></li>
+                                <li data-target="#carouselLembang" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="gambar/lembang-farm-house-maribaya.jpg" class="d-block w-100" alt="Responsive Image" id="crsb1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="gambar/floating-market-lembang.jpg" class="d-block w-100" alt="Responsive Image" id="crsb2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="gambar/lembang-3.jpg" class="d-block w-100" alt="Responsive Image" id="crsb3">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselLembang" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselLembang" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="modal-body">
+                            <h2 class="modal-title"><b>Lembang</b></h2>
+                            <br>
+                            <h5 class="modal-tittle"><b>Lembang, A Mountainous Getaway from the Hectic Urban Life</b></h5>
+                            <br>
+                            <p class="modal-text">
+                                Embrace the natural beauty of Lembang. Forget your home for a while, enjoy the cold fresh air and the petrichor emanating from the rain.
+                                Located north of the magnificent city of Bandung, Lembang is a perfect getaway destination for nature lovers from the hustle and bustle of a city. Lembang highland is bestowed with picturesque sceneries, scenic tea plantations, and a nice change of cold weather from humid heat.
+                            </p>
+                            <p class="modal-text">    
+                              Mountainous adventure and fresh air are the charms of Lembang, a favorite sojourn location among the urban population. Several destinations here should be on top of your list, such as: Lodge Maribaya which boasts natural adventures and waterfalls; the Instagrammable Keraton Cliff, one the best photo spots; and the legendary Tangkuban Perahu Mountain, fantastic with its natural scenery and mesmerizing craters.
+                            </p>
+                            <p class="modal-text">
+                              Lembang is also a great site to enjoy your family holiday. Visiting Farmhouse Lembang or De'Ranch is a must if you're with children. Visit the Hobbit house in Farmhouse or go horseback riding in De'Ranch, both are wonderful family-friendly attractions. You want something different? Stargazing at Bosscha Observatory offers a more educational type of vacation.
+                            </p>
+                            <p class="modal-text">
+                              Lembang is also a great site to enjoy your family holiday. Visiting Farmhouse Lembang or De'Ranch is a must if you're with children. Visit the Hobbit house in Farmhouse or go horseback riding in De'Ranch, both are wonderful family-friendly attractions. You want something different? Stargazing at Bosscha Observatory offers a more educational type of vacation.
+
+                            </p>
+                            <p class="modal-test">
+                              People say that green is a good color to relieve stress. As a fertile highland, Lembang is lush with plantations: tea, strawberry, and vegetables. You can visit these plantations and pick your own fresh crops or buy them from local farmers. These places are best when you want to get closer to nature.
+                            </p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <h4 id="hrg"><b>IDR 50.000</b></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--lembang-->
+
+            <!--tangkuban perahu-->
+            <div class="card row col-lg-8-md-8-sm-10-xs-10 shadow-lg p-0 bg-white rounded" id="card-3">
+                <img class="card-img-top" src="gambar/overturning ship-background.jpg" alt="Responsive Image" id="imgcard3">
+                <div class="card-body">
+                    <h3 class="card-title"><b>Tangkuban Perahu</b></h3>
+                    <h5 class="card-tittle"><b>Subang,Bandung Indonesia</b></h5>
+                    <br>
+                    <p class="text-break">
+                      Tangkuban perahu is an active volcano, situated 30 km north of the city of Bandung in the direction of Lembang. It is the only crater in Indonesia that you can drive up to its very rim. Mount Tangkuban Perahu has a distinctive shape, and looks like an “overturned boat”. Here you will be greeted by sulfur fumes which the crater continues to emit although the volcano is not active.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <h4><b>IDR : 100.000/person </b></h4>
+                    <br>
+                    <button type="button" class="btn btn-info btn-md active" data-toggle="modal" data-target="#tangkubanperahu">
+                        See More
+                      </button>
+                    <button class="btn btn-primary btn-md active" type="button" value="100000" id="hargaC">Add To Wishlist</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="tangkubanperahu" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="btn btn-secondary btn-md active" type="button" value="100000" id="hargaC">Add To Wishlist</button>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                        </div>
+                        <div id="carouseltangkuban" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouseltangkuban" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouseltangkuban" data-slide-to="1"></li>
+                                <li data-target="#carouseltangkuban" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="gambar/tangkuban-perahu-2.jpg" class="d-block w-100" alt="Responsive Image" id="crsn1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="gambar/tangkuban-perahu-3.jpg" class="d-block w-100" alt="Responsive Image" id="crsn2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="gambar/tangkuban-perahu-4.jpeg" class="d-block w-100" alt="Respinsive Image" id="crsn3">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouseltangkuban" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouseltangkuban" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="modal-body">
+                            <h2 class="modal-title"><b>Tangkuban Perahu, The "Overturned Boat" with Astonishing View</b></h2>
+                            <h5 class="modal-tittle"><b>Subang,Bandung, Indonesia</b></h5>
+                            <br><br>
+                            <p class="modal-text">
+                              Tangkuban Perahu has definitely a significant role especially in the development of the surrounding Parahyangan (land of God) Highlands. Its eruption contributed immensely to the formation and fertility of the hills north of Bandung when through its flow of lava carrying large boulders into the valleys, these formed huge cliffs over which waterfalls leapt to form the lake that today covers the Bandung plain.
+                            </p>
+                            <p class="modal-text">
+                              Located at the highland just at the outskirt of Bandung, Tangkuban Perahu Crater is surely a perfect place to enjoy cool air and relaxing sceneries after a series of shopping activities. For a rejuvenating sensation, visitors can continue their journey to the nearby Ciater's Revitalizing Hot Springs.
+                            </p>
+                            <p class="modal-text">
+                              Tangkuban Perahu is a 90 minutes drive from Bandung on weekdays. The easiest way to get there is by joining a tour or rent a car. However, if you’re up to take an adventurous journey, you may take a Subang Colt via Lembang from Bandung’s minibus terminal in front of the train station to the park entrance of Tangkuban Perahu. 
+                            </p>
+                            <p class="modal-text">
+                              There are minibuses, which lead you to the top. Alternatively, you can walk from the gate at the main road. It’s 4,5 km hike along the road or you can take the more interesting side trail that goes via Kawah Domas. It’s a very steep one-hour walk through the jungle and better tackled from the top down. It starts just behind the information center and is easy to follow.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <h4 id="hrg"><b>IDR 100.000</b></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--tangkuban perahu-->
+            
+        </section>
+        <br><br>
+        <br><br>
+    </div>
+    <br><br>
+    <!--konten-->    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
